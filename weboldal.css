@@ -1,0 +1,5 @@
+.height400px {
+    background-image: url(/images/factory.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
