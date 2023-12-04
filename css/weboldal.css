@@ -80,3 +80,38 @@ p {
     text-align: justify;
     font-size: 14pt;
 }
+.maxRight {
+    text-align: right;
+}
+.marginedRow {
+    padding-right: 10%;
+    padding-left: 10%;
+}
+.footer {
+    border-top: 36pt solid white;
+    border-bottom: 36pt solid white;
+}
+.register {
+    border: 1px solid rgb(200, 200, 200);
+    background-color: rgb(35, 31, 32);
+    border-radius: 5pt;
+    color: rgb(175, 175, 175);
+    margin-bottom: 6pt;
+}
+.remainingSearch {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.linkKind:hover {
+    text-decoration: underline;
+    display: flex;
+    align-items: center;
+}
+.linkKind {
+    display: flex;
+    align-items: center;
+}
+.invertedColor {
+    background-color: white;
+    color: black;
+}
