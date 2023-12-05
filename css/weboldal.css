@@ -102,11 +102,6 @@ p {
     padding-left: 10%;
     padding-right: 10%;
 }
-.linkKind:hover {
-    text-decoration: underline;
-    display: flex;
-    align-items: center;
-}
 .linkKind {
     display: flex;
     align-items: center;
@@ -114,4 +109,59 @@ p {
 .invertedColor {
     background-color: white;
     color: black;
+}
+.containerRadius {
+    border: 1px white solid;
+    border-radius: 50pt 50pt 0pt 0pt;
+}
+.containerRadiusBottom {
+    border: 36pt white solid;
+    border-radius: 0pt 0pt 50pt 50pt;
+}
+.textUnderlining {
+    display: flex;
+    align-items: center;
+    margin-left: 6pt;
+}
+.roundingTheBasics {
+    border-radius: 5pt;
+    border: solid rgb(35, 31, 32) 1px;
+    height: 50%;
+    width: 75%;
+}
+h5 {
+    font-size: 16pt;
+    text-align: center;
+    font-weight: bold;
+}
+.roundingThePPT1 {
+    border-radius: 10pt 0pt 0pt 0pt;
+    border: solid rgb(35, 31, 32) 1pt;
+    height: 50%;
+    width: 50%;
+    border: 1px rgb(255, 222, 89) solid;
+}
+.roundingThePPT2 {
+    border-radius: 0pt 10pt 0pt 0pt;
+    border: solid rgb(35, 31, 32) 1pt;
+    height: 50%;
+    width: 50%;
+    border: 1px rgb(255, 222, 89) solid;
+}
+.roundingThePPT3 {
+    border-radius: 0pt 0pt 0pt 10pt;
+    border: solid rgb(35, 31, 32) 1pt;
+    height: 50%;
+    width: 50%;
+    border: 1px rgb(255, 222, 89) solid;
+}
+.roundingThePPT4 {
+    border-radius: 0pt 0pt 10pt 0pt;
+    border: solid rgb(35, 31, 32) 1pt;
+    height: 50%;
+    width: 50%;
+    border: 1px rgb(255, 222, 89) solid;
+}
+.wannaBeLink {
+    margin-left: 6pt;
 }
